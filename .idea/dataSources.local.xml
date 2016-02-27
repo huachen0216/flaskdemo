@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="SQLite -" uuid="df790382-f084-4789-ac4c-9640ff085d1e">
+      <secret-storage>master_key</secret-storage>
+    </data-source>
+    <data-source name="MySQL - test@localhost" uuid="21a4a4ca-8d3c-4689-b2ab-05f0a1eacd54">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>test.*</schema-pattern>
+      <default-schemas>test.*</default-schemas>
+    </data-source>
+  </component>
+</project>

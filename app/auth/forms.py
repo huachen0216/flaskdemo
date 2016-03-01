@@ -24,8 +24,8 @@ class RegistrationForm(Form):
         if User.query.filter_by(email=field.data).first():
             raise ValidationError('Email already registered.')
 
-    def validate_username(self, filed):
-        if User.query.filter_by(username=filed.data).first():
+    def validate_username(self, field):
+        if User.query.filter_by(username=field.data).first():
             raise ValidationError('Username already in use.')
 class ChangePasswordForm(Form):
     old_password = PasswordField('Old password', validators=[Required()])
